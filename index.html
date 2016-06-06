@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      #google-maps {
+        width: 800px;
+        height: 800px;
+      }
+      .original-marker {
+        margin-left: 0px;
+        margin-top: 0px;
+        z-index: 1000002;
+        display: block;
+      }
+      .tooltip {
+        text-align: center;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+      }
+      .point-marker:before {
+        border-width: 6px;
+        border-top-color: rgba(0, 0, 0, 0.3);
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        left: 0px;
+        border: 12px solid transparent;
+        border-bottom: 0;
+        border-top-color: #ff5a5a;
+      }
+      .point-marker {
+        display: inline;
+        background-color: #ff5a5a;
+        padding: 2px 4px;
+      }
+      .point-label {
+        white-space: nowrap;
+        display: inline;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0uUcrzn5-JlwJV7IkfPILqaU9j-Y2NXc" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="google-maps">
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
