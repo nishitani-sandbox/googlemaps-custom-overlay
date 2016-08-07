@@ -2,10 +2,10 @@
 
 Useless sample for checking some functions.
 
-# References
+## References
 
 [Google Maps API > CustomOverlay](https://developers.google.com/maps/documentation/javascript/customoverlays)
 
-# Author
+## Author
 
 [nishitaniyuki](https://github.com/nishitaniyuki)
